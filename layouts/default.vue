@@ -1,9 +1,10 @@
 <template>
-    <section 
+    
+<section 
         class="grid"
         style="min-height:100vh"
     >
-        <div></div>
+        <ot-sidebar/>
         <div>
             <slot></slot>
         </div>
@@ -11,6 +12,7 @@
 </template>
 
 <script setup lang="ts">
+import otSidebar from '~/components/ot-sidebar.vue';
 
 </script>
 
