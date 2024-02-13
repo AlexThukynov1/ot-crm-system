@@ -12,10 +12,16 @@
                 class="mx-auto"
             />
         </nuxt-link>
+        <button 
+            class="absolute top-2 right-3 transition-colors hover:text-primary"
+        >
+            <Icon name="line-md:logout" size="22px"/>
+        </button>
     </aside>
 </template>
 
 <script setup lang="ts">
+
 
 </script>
 

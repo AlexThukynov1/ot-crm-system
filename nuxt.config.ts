@@ -1,7 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
-  modules: ["@nuxt/image","@nuxtjs/tailwindcss","shadcn-nuxt", '@nuxtjs/google-fonts'],
+  modules: [
+    '@nuxt/image',
+    '@nuxtjs/tailwindcss',
+    'shadcn-nuxt',
+    '@nuxtjs/google-fonts',
+    'nuxt-icon',
+  ],
   shadcn: {
     prefix: 'Ot',
     componentDir: './components/ui'
