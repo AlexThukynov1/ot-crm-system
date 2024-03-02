@@ -25,6 +25,7 @@ module.exports = {
           DEFAULT: "var(--primary)",
           foreground: "var(--primary-foreground)",
         },
+        "menu-link": "var(--menu)",
         secondary: {
           DEFAULT: "var(--secondary)",
           foreground: "hsl(var(--secondary-foreground))",

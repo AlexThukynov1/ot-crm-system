@@ -17,6 +17,7 @@
         >
             <Icon name="line-md:logout" size="22px"/>
         </button>
+        <LayoutMenu/>
     </aside>
 </template>
 
