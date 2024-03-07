@@ -8,7 +8,7 @@
             <NuxtImg
                 src="/logo.svg"
                 alt="Logo"
-                width="100px"
+                width="120px"
                 class="mx-auto"
             />
         </nuxt-link>
