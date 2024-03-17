@@ -7,6 +7,7 @@
     --background: #0b1120;
     --foreground: 222.2 84% 4.9%;
     --menu:#fcf3f3;
+    --text-base: #fcf3f3;
  
     --muted: #202937;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -17,9 +18,9 @@
     --card: #0e172a;
     --card-foreground: 222.2 84% 4.9%;
  
-    --border: #202937;
-    --input: #202937;
-    --sidebar : #202937;
+    --border: #fcf3f3;
+    --input: #fcf3f3;
+    --sidebar : #0e172a;
  
     --primary: #a252c8;
     --primary-foreground: #656565;
@@ -44,7 +45,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground text-lg;
+    @apply bg-background text-white text-lg;
     font-family: Lato, serif;
   }
 }

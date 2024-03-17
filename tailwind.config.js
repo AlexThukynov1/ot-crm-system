@@ -21,6 +21,7 @@ module.exports = {
         background: "var(--background)",
         foreground: "hsl(var(--foreground))",
         sidebar: "var(--sidebar)",
+        maincolor: "var(--text-base)",
         primary: {
           DEFAULT: "var(--primary)",
           foreground: "var(--primary-foreground)",
